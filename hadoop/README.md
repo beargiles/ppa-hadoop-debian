@@ -8,16 +8,16 @@ Getting the Source
 
 To get the overall Hadoop source use
 
-{code:bash}
+```{bash}
 $ git checkout git@github.com:apache/hadoop.git
-{code}
+```
 
 To get a specific release, e.g., 2.9.0, cd into the hadoop directory
 and use
 
-{code:bash}
+```
 $ git checkout rel/release-2.9.0
-{code}
+```
 
 Building the Debian Package
 ==
@@ -30,6 +30,6 @@ release. (16.04 LTS is 'xenial', 18.04 LTS is 'bionic').
 Once you're satified with the updated files build the Debian packages
 with
 
-{code:bash}
+```
 $ dpkg-buildpackage -us -uc -nc
-{code}
+```
